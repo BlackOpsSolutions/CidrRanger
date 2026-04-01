@@ -47,7 +47,9 @@ function App() {
 
   return (
     <div className={`container ${bgClass} ${shaking ? 'shake' : ''}`}>
-      <h1>CIDR Range Checker</h1>
+      <h1>CIDR Ranger</h1>
+      <p className="tagline">Quickly check if an IP address falls within one or more CIDR ranges.</p>
+      <p className="description">Enter your CIDR blocks (comma-separated) and an IP address below. Instant visual feedback — green means it's in range, red means it's not.</p>
 
       <div className="form">
         <label>
